@@ -68,14 +68,17 @@ body{background:#fafafa;color:#262626;max-width:500px;margin:0 auto;box-shadow:0
 /* Platform Colors */
 .instagram{color:#e1306c}.youtube{color:#ff0000}.tiktok{color:#000000}.whatsapp{color:#25d366}.facebook{color:#1877f2}.website{color:#7c4dff}
 
-/* Bottom Nav */
-.bottom-nav{position:fixed;bottom:0;width:100%;max-width:500px;background:white;border-top:1px solid #dbdbdb;display:flex;justify-content:space-around;padding:12px 0}
-.nav-item{color:#262626;font-size:20px;cursor:pointer}
+/* Bottom Nav dengan Watermark */
+.bottom-nav{position:fixed;bottom:0;width:100%;max-width:500px;background:white;border-top:1px solid #dbdbdb;display:flex;justify-content:space-around;padding:8px 0 15px 0;align-items:center}
+.nav-item{color:#262626;font-size:20px;cursor:pointer;position:relative}
 .nav-item.active{color:#0095f6}
+.watermark{position:absolute;bottom:3px;left:0;right:0;text-align:center;font-size:10px;color:#8e8e8e}
+.watermark i{color:#ff0000;margin:0 2px}
 
 /* Responsive */
 @media (max-width:480px){
     .profile-header{flex-direction:column;text-align:center;gap:15px}
     .profile-stats{gap:15px}
     .post-image{height:250px}
+    .watermark{font-size:9px}
 }
