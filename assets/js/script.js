@@ -79,12 +79,33 @@ function loadExplorer() {
     explorer.innerHTML = `<div style="padding:16px">
         <h3 style="margin-bottom:15px;font-size:18px">Jelajahi Sedayu</h3>
         <div class="explorer-grid">
-            <a href="/404.html" class="explorer-item">🏞️ Wisata</a>
-            <a href="/404.html" class="explorer-item">🛍️ UMKM</a>
-            <a href="/404.html" class="explorer-item">🎭 Budaya</a>
-            <a href="/404.html" class="explorer-item">🏛️ Pemerintahan</a>
-            <a href="/404.html" class="explorer-item">📚 Pendidikan</a>
-            <a href="/404.html" class="explorer-item">🏥 Kesehatan</a>
+            <a href="404.html" class="explorer-item">🏞️ Wisata</a>
+            <a href="404.html" class="explorer-item">🛍️ UMKM</a>
+            <a href="404.html" class="explorer-item">🎭 Budaya</a>
+            <a href="404.html" class="explorer-item">🏛️ Pemerintahan</a>
+            <a href="404.html" class="explorer-item">📚 Pendidikan</a>
+            <a href="404.html" class="explorer-item">🏥 Kesehatan</a>
+        </div>
+        <div style="margin-top:20px">
+            <h4 style="margin-bottom:10px;font-size:16px">Layanan Cepat</h4>
+            <div class="profile-links">
+                <a href="404.html" class="profile-link">
+                    <i class="fas fa-newspaper website"></i>
+                    <span>Semua Berita & Artikel</span>
+                </a>
+                <a href="404.html" class="profile-link">
+                    <i class="fas fa-images link-icon"></i>
+                    <span>Galeri Foto & Video</span>
+                </a>
+                <a href="404.html" class="profile-link">
+                    <i class="fas fa-phone website"></i>
+                    <span>Kontak & Layanan</span>
+                </a>
+            </div>
+        </div>
+        <div style="margin-top:20px;padding:15px;background:#f8f9fa;border-radius:8px;border-left:4px solid #0095f6">
+            <h4 style="margin-bottom:8px;font-size:14px;color:#0095f6">💡 Informasi</h4>
+            <p style="font-size:12px;color:#666;margin:0;line-height:1.4">Fitur ini sedang dalam pengembangan. Klik kategori apa saja akan mengarah ke halaman informasi.</p>
         </div>
     </div>`;
 }
