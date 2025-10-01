@@ -158,5 +158,6 @@ document.addEventListener('DOMContentLoaded', function() {
     loadExplorer();
     loadProfile();
     setupTabNavigation();
+    
+    console.log('🚀 Shortlink Sedayu - Made with ❤️ by RizzTech');
 });
-
