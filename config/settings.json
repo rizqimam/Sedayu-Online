@@ -1,0 +1,54 @@
+{
+  "profile": {
+    "username": "Shortlink Sedayu",
+    "name": "Pemerintah Desa Sedayu",
+    "bio": "Nek bisa gampang, ngapa kudu angel",
+    "location": "Sedayu, Sapuran, Wonosobo, Jawa Tengah 56373",
+    "avatar": "assets/images/profile/logo-sedayu.png",
+    "website": "https://sedayu.desacantik.id"
+  },
+  "socialLinks": [
+    {
+      "name": "TikTok",
+      "icon": "fab fa-tiktok",
+      "username": "@SedayuSapuran",
+      "url": "https://tiktok.com/@SedayuSapuran",
+      "color": "tiktok"
+    },
+    {
+      "name": "YouTube",
+      "icon": "fab fa-youtube",
+      "username": "youtube.com/Sedayu",
+      "url": "https://youtube.com/Sedayu",
+      "color": "youtube"
+    },
+    {
+      "name": "Instagram",
+      "icon": "fab fa-instagram",
+      "username": "@PemdesSedayu",
+      "url": "https://instagram.com/PemdesSedayu",
+      "color": "instagram"
+    },
+    {
+      "name": "Facebook",
+      "icon": "fab fa-facebook-f",
+      "username": "Facebook.com/Pemdessedayu",
+      "url": "https://facebook.com/Pemdessedayu",
+      "color": "facebook"
+    },
+    {
+      "name": "WhatsApp",
+      "icon": "fab fa-whatsapp",
+      "username": "6289525555541",
+      "url": "https://wa.me/6289525555541",
+      "color": "whatsapp"
+    },
+    {
+      "name": "Website",
+      "icon": "fas fa-globe",
+      "username": "sedayu.desacantik.id",
+      "url": "https://sedayu.desacantik.id",
+      "color": "website"
+    }
+  ]
+}

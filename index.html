@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shortlink Sedayu - Pemerintah Desa Sedayu</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <div class="header">
+        <div class="logo">Shortlink Sedayu</div>
+        <div class="header-icons">
+            <i class="far fa-heart"></i>
+            <i class="fab fa-facebook-messenger"></i>
+        </div>
+    </div>
+    
+    <!-- Stories -->
+    <div class="stories-container">
+        <div class="stories" id="storiesContainer">
+            <!-- Stories akan di-load oleh JavaScript -->
+        </div>
+    </div>
+    
+    <!-- Tabs -->
+    <div class="tabs">
+        <div class="tab active" data-tab="feed">Feed</div>
+        <div class="tab" data-tab="explorer">Explorer</div>
+        <div class="tab" data-tab="profile">Profil</div>
+    </div>
+    
+    <!-- Feed Content -->
+    <div class="content-area active" id="feed">
+        <div class="loading">Memuat postingan...</div>
+    </div>
+    
+    <!-- Explorer Content -->
+    <div class="content-area" id="explorer">
+        <!-- Content explorer akan di-load -->
+    </div>
+    
+    <!-- Profile Content -->
+    <div class="content-area" id="profile">
+        <!-- Content profile akan di-load -->
+    </div>
+    
+    <!-- Bottom Navigation -->
+    <div class="bottom-nav">
+        <div class="nav-item active" data-tab="feed"><i class="fas fa-home"></i></div>
+        <div class="nav-item" data-tab="explorer"><i class="fas fa-search"></i></div>
+        <div class="nav-item" data-tab="profile"><i class="far fa-user"></i></div>
+    </div>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
