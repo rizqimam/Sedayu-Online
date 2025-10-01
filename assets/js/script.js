@@ -27,11 +27,11 @@ const config = {
         },
         {
             id: 2,
-            image: "https://sedayu.desacantik.id/desa/upload/artikel/sedang_1716876496_IMG-20240527-WA0015.jpg",
-            title: "PKK Desa Sedayu Borong Prestasi di Jambore PKK Kecamatan Sapuran",
-            caption: "Tim PKK Desa Sedayu berhasil meraih berbagai prestasi dalam Jambore PKK tingkat Kecamatan Sapuran",
-            likes: "189",
-            url: "https://sedayu.desacantik.id/index.php/artikel/2025/5/28/pkk-desa-sedayu-borong-prestasi-di-jambore-pkk-kecamatan-sapuran"
+            image: "https://sedayu.desacantik.id/desa/upload/artikel/sedang_1744262052_WhatsApp%20Image%202025-04-10%20at%2012.08.10.jpeg",
+            title: "Percobaan",
+            caption: "nyobainnnn",
+            likes: "13489",
+            url: "https://sedayu.desacantik.id/index.php/artikel/2025/4/10/halal-bihalal-kecamatan-sapuran"
         }
     ]
 };
@@ -159,3 +159,4 @@ document.addEventListener('DOMContentLoaded', function() {
     loadProfile();
     setupTabNavigation();
 });
+
