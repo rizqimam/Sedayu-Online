@@ -3,195 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Halaman Tidak Tersedia - Shortlink Sedayu</title>
+    <title>Halaman Tidak Tersedia</title>
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-        }
-        
         body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             color: white;
-            min-height: 100vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            overflow: hidden;
-            position: relative;
-        }
-        
-        .container {
             text-align: center;
-            z-index: 10;
-            position: relative;
+            margin: 0;
+            padding: 20px;
         }
-        
-        .error-code {
-            font-size: 120px;
-            font-weight: 800;
-            margin-bottom: 20px;
-            background: linear-gradient(45deg, #00ffff, #ff00ff, #ffff00);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-            animation: glow 2s ease-in-out infinite alternate;
-        }
-        
-        .message {
-            font-size: 18px;
-            margin-bottom: 30px;
-            opacity: 0.9;
+        .container {
             max-width: 400px;
-            line-height: 1.5;
         }
-        
+        .error-code {
+            font-size: 80px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
         .btn {
             display: inline-block;
-            padding: 12px 30px;
-            background: rgba(255,255,255,0.1);
-            color: white;
+            padding: 12px 24px;
+            background: white;
+            color: #667eea;
             text-decoration: none;
-            border-radius: 25px;
-            border: 1px solid rgba(255,255,255,0.3);
-            backdrop-filter: blur(10px);
-            transition: all 0.3s ease;
-            font-weight: 500;
-            margin: 5px;
-        }
-        
-        .btn:hover {
-            background: rgba(255,255,255,0.2);
-            transform: translateY(-2px);
-            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
-        }
-        
-        .btn-secondary {
-            background: rgba(255,255,255,0.05);
-            border: 1px solid rgba(255,255,255,0.2);
-        }
-        
-        /* Animasi Background */
-        .bg-animation {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            overflow: hidden;
-        }
-        
-        .floating-element {
-            position: absolute;
-            background: rgba(255,255,255,0.1);
-            border-radius: 50%;
-            animation: float 6s ease-in-out infinite;
-        }
-        
-        .floating-element:nth-child(1) {
-            width: 80px;
-            height: 80px;
-            top: 20%;
-            left: 10%;
-            animation-delay: 0s;
-        }
-        
-        .floating-element:nth-child(2) {
-            width: 120px;
-            height: 120px;
-            top: 60%;
-            left: 80%;
-            animation-delay: 2s;
-        }
-        
-        .floating-element:nth-child(3) {
-            width: 60px;
-            height: 60px;
-            top: 80%;
-            left: 20%;
-            animation-delay: 4s;
-        }
-        
-        /* Animasi */
-        @keyframes glow {
-            from {
-                text-shadow: 0 0 20px #00ffff, 0 0 30px #ff00ff;
-            }
-            to {
-                text-shadow: 0 0 30px #ff00ff, 0 0 40px #00ffff;
-            }
-        }
-        
-        @keyframes float {
-            0%, 100% {
-                transform: translateY(0) rotate(0deg);
-                opacity: 0.7;
-            }
-            50% {
-                transform: translateY(-20px) rotate(180deg);
-                opacity: 0.3;
-            }
-        }
-        
-        @keyframes pulse {
-            0%, 100% {
-                transform: scale(1);
-            }
-            50% {
-                transform: scale(1.05);
-            }
-        }
-        
-        .pulse {
-            animation: pulse 2s ease-in-out infinite;
-        }
-        
-        .button-group {
-            display: flex;
-            gap: 10px;
-            justify-content: center;
-            flex-wrap: wrap;
+            border-radius: 8px;
+            font-weight: 600;
+            margin: 10px;
         }
     </style>
 </head>
 <body>
-    <!-- Background Animation -->
-    <div class="bg-animation">
-        <div class="floating-element"></div>
-        <div class="floating-element"></div>
-        <div class="floating-element"></div>
-    </div>
-    
-    <!-- Main Content -->
     <div class="container">
-        <div class="error-code pulse">404</div>
-        <div class="message">
-            Maaf, halaman yang Anda cari sedang tidak aktif<br>
-            dan dalam proses perbaikan.
-        </div>
-        
-        <div class="button-group">
-            <a href="https://rizqimam.github.io/Sedayu-Online/" class="btn">
-                🏠 Kembali ke Home
-            </a>
-            <button onclick="history.back()" class="btn btn-secondary">
-                ↩️ Halaman Sebelumnya
-            </button>
-        </div>
+        <div class="error-code">404</div>
+        <h2>Halaman Tidak Tersedia</h2>
+        <p>Maaf, halaman yang Anda cari sedang tidak aktif.</p>
+        <a href="https://rizqimam.github.io/Sedayu-Online/" class="btn">
+            Kembali ke Home
+        </a>
     </div>
-
-    <script>
-        // Fallback jika history.back() tidak bekerja
-        document.querySelector('.btn-secondary').addEventListener('click', function() {
-            setTimeout(function() {
-                if (document.referrer === '' || document.referrer.includes('404.html')) {
-                    window.location.href = 'https://rizqimam.github.io/Sedayu-Online/';
-                }
-            }, 1000);
-        });
-    </script>
 </body>
 </html>
-
