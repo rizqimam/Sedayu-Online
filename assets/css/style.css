@@ -24,28 +24,34 @@ body{background:#fafafa;color:#262626;max-width:500px;margin:0 auto;box-shadow:0
 /* Content */
 .content-area{display:none;background:white;min-height:calc(100vh - 130px)}
 .content-area.active{display:block}
+.loading,.error{text-align:center;padding:40px 20px;color:#8e8e8e}
 
 /* Posts */
 .post{margin-bottom:20px;border:1px solid #dbdbdb;border-radius:8px;overflow:hidden;cursor:pointer}
 .post-header{display:flex;align-items:center;padding:12px}
 .post-avatar{width:32px;height:32px;border-radius:50%;margin-right:12px;overflow:hidden}
-.post-avatar img{width:100%;height:100%;object-fit:cover}
+.post-avatar img,.post-image img{width:100%;height:100%;object-fit:cover}
 .post-username{font-weight:600;font-size:14px}
 .post-image{width:100%;height:300px;overflow:hidden}
-.post-image img{width:100%;height:100%;object-fit:cover}
 .post-actions{padding:12px;display:flex;justify-content:space-between}
 .post-actions-left{display:flex;gap:12px}
 .post-likes{padding:0 12px;font-weight:600;font-size:14px;margin-bottom:8px}
 .post-caption{padding:0 12px 12px;font-size:14px;line-height:1.4}
 
 /* Explorer */
-.explorer-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:2px}
-.explorer-item{aspect-ratio:1;display:flex;align-items:center;justify-content:center;background:#f0f0f0;color:#8e8e8e;font-size:12px;text-decoration:none}
+.explorer-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:2px;margin-bottom:20px}
+.explorer-item{aspect-ratio:1;display:flex;align-items:center;justify-content:center;color:white;font-size:12px;text-decoration:none;transition:all 0.3s ease;border-radius:4px;cursor:pointer}
+.explorer-item:hover{transform:scale(1.05);box-shadow:0 4px 12px rgba(0,0,0,0.2);opacity:0.9}
+.explorer-item:nth-child(1){background:#667eea}
+.explorer-item:nth-child(2){background:#764ba2}
+.explorer-item:nth-child(3){background:#f093fb}
+.explorer-item:nth-child(4){background:#4facfe}
+.explorer-item:nth-child(5){background:#43e97b}
+.explorer-item:nth-child(6){background:#fa709a}
 
 /* Profile */
 .profile-header{padding:16px;display:flex;align-items:center;gap:20px}
 .profile-avatar{width:80px;height:80px;border-radius:50%;overflow:hidden}
-.profile-avatar img{width:100%;height:100%;object-fit:cover}
 .profile-stats{display:flex;gap:20px}
 .stat{display:flex;flex-direction:column;align-items:center}
 .stat-value{font-weight:700;font-size:16px}
@@ -56,7 +62,8 @@ body{background:#fafafa;color:#262626;max-width:500px;margin:0 auto;box-shadow:0
 .profile-location{font-size:14px;color:#8e8e8e;margin-bottom:12px}
 .profile-website{color:#00376b;font-weight:600;font-size:14px;margin-bottom:12px;text-decoration:none;display:block}
 .profile-links{display:flex;flex-direction:column;gap:8px;margin-top:16px}
-.profile-link{display:flex;align-items:center;gap:12px;padding:12px;background:#f0f0f0;border-radius:8px;text-decoration:none;color:#262626;font-weight:500}
+.profile-link{display:flex;align-items:center;gap:12px;padding:12px;background:#f0f0f0;border-radius:8px;text-decoration:none;color:#262626;font-weight:500;transition:background 0.2s}
+.profile-link:hover{background:#e0e0e0}
 
 /* Platform Colors */
 .instagram{color:#e1306c}.youtube{color:#ff0000}.tiktok{color:#000000}.whatsapp{color:#25d366}.facebook{color:#1877f2}.website{color:#7c4dff}
