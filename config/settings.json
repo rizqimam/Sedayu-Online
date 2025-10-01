@@ -4,7 +4,7 @@
     "name": "Pemerintah Desa Sedayu",
     "bio": "Nek bisa gampang, ngapa kudu angel",
     "location": "Sedayu, Sapuran, Wonosobo, Jawa Tengah 56373",
-    "avatar": "assets/images/profile/logo-sedayu.png",
+    "avatar": "https://pbb.wonosobokab.go.id/public/img/logo.png",
     "website": "https://sedayu.desacantik.id"
   },
   "socialLinks": [
@@ -49,6 +49,24 @@
       "username": "sedayu.desacantik.id",
       "url": "https://sedayu.desacantik.id",
       "color": "website"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "image": "https://sedayu.desacantik.id/desa/upload/artikel/sedang_1753375519_Airbrush-OBJECT-REMOVER-1753375241512.png",
+      "title": "Desa Sedayu Ikut Meriahkan Peringatan Hari Jadi ke-200 Kabupaten Wonosobo",
+      "caption": "Desa Sedayu turut serta memeriahkan peringatan hari jadi ke-200 Kabupaten Wonosobo dengan berbagai kegiatan dan atraksi budaya",
+      "likes": "245",
+      "url": "https://sedayu.desacantik.id/index.php/artikel/2025/7/25/desa-sedayu-ikut-meriahkan-peringatan-hari-jadi-ke-200-kabupaten-wonosobo"
+    },
+    {
+      "id": 2,
+      "image": "https://sedayu.desacantik.id/desa/upload/artikel/sedang_1716876496_IMG-20240527-WA0015.jpg",
+      "title": "PKK Desa Sedayu Borong Prestasi di Jambore PKK Kecamatan Sapuran",
+      "caption": "Tim PKK Desa Sedayu berhasil meraih berbagai prestasi dalam Jambore PKK tingkat Kecamatan Sapuran",
+      "likes": "189",
+      "url": "https://sedayu.desacantik.id/index.php/artikel/2025/5/28/pkk-desa-sedayu-borong-prestasi-di-jambore-pkk-kecamatan-sapuran"
     }
   ]
 }
